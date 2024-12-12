@@ -32,12 +32,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.qualys.ccf</groupId>
-            <artifactId>connector-contract-lib</artifactId>
-            <version>1.0.0-72</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.32</version>
