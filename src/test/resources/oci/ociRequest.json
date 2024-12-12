@@ -1,0 +1,29 @@
+{
+  "type": "OCI",
+  "profileUuid": "9dc6023a-2f66-41b3-b62a-2d1ad155ccba",
+  "connectorConfigDetails": {
+    "deltaMsg": "",
+    "authDetails": [
+      {
+        "authField": {
+          "region": "us-ashburn-1",
+          "tenancyId": "ocid1.tenancy.oc1..aaaaaaaax2gwhq3hszjqhte5pgzijgyge6gvlsrqar6kxn7itwhk7keokamq",
+          "fingerprint": "b9:3c:fd:ea:03:3a:ba:12:f7:a0:07:d6:87:fb:86:39",
+          "userId": "ocid1.user.oc1..aaaaaaaa3zepda5piqwbwvlhpsyq3rkpomyptuh5mge64hy4nq2tthbdmzyq",
+          "compartmentId": "ocid1.compartment.oc1..aaaaaaaali4pxjxnvpmvya4mmvazrx7ypdr7mt4tgmgy2k5e4yaicfb3nyaq",
+          "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCgp4itgtTo1tws\nJGyoIl4qiJmYHC6gh2Ko87hEx0mGEb6/oCYbk/EgFP+Iil5JX8OD2OEYJYpc+nty\nJkGzYp9QX2uGpCR1SPMMJD4ZdGuQRfd9LetX6ZGMufkmm4DgK5h1raFPursNLrks\ntV9uPbijIBZBwUuoCVB6NNXDWWnrFLdFUqAehfgnl08n4CtCHsIfxoqkzlCAws05\n2S1C6VvpZR37OYG4CuMOOmwo8FtcJFj1VN0RrTEH6EC0HSBDkab4PlsKh0fb4b4/\nGrbdtgI1WU0A+J/CCMSyqvSM1/SAnUMUR/3rIVO0aZZcYsxBEKE1+yP2hQG5ZVXI\ns0splibfAgMBAAECggEAGogl6Gc8+58ltBySh/SfvJfcAI+sRlKq6+AkRHztGuPU\nrsJSHifWoJ0XKS5A2A6lXsxIkGZSwtGTOuIv44zxZqKmQrwvpoxU/Les5yNKSFoQ\nahn/+KrYS3dt5am0z6YjgvvD3O5SdKDiGrdxepFdlth2adxJvwdFb96d7FSDS5FY\nXvmRgijTf+9I/oufp5/9K53wdGg2hYjZQ1waUsvZeNw+2NahiJSDvWYKwpxsjbQ4\nSlqt//oWDtW60Y+tKEL2XkXKdXt1vQgogsucuTli3IGok7+43moVpHOlHAkEd9GE\n0aRiOlY9QugF2ZDBiQnd8oZJPl7/urRT3o0nddXQwQKBgQDdFqotkDwJ6ecN7SOy\n6uM7CkK5QU0kKkUO7p/mxmFOziJNcILEEW3+AXK1YGaNSwx56GEmnxwlrdZdSuno\nTuTU0+cd7pi1s3XRFdMw+JPX7uteuwSR1l4+mrLC633ndUSNECPjdwFPmiZbuNDf\nL3EjrGfuDHBAkwr6nIKjchP90QKBgQC6Bd3X+AYWVnk/l/HDNgxonPBx2wNl8h/a\n7KDZhXPITtSRob9/z1+AMoDY1+qAMwpDZyPcawb5s3NAKWOwfasKN3rXm/0w3vmN\noSXaZNbSWmFCRRAvtYK5F3tVkvPD5AU72L/d3sF2YXE9OAv2lQDyg4/PY3HZSFEW\nJjieL2GVrwKBgGqMYbdTq5ubfh7YCjxPtvLdHwrozaSAOofXuHgfYwX3kdCASIT1\nYWzohb+jlcjCQmD9/NQAGjCOdqC/Wbr7SozHErr6Id5vfnglbIJNSfLm0cf1mV4v\nUXwaUcxecW76tO7GuIUG9TrHr3TEvOTSmFP44p12oSJ9uuzMQKlEcR4BAoGANzO2\neXholghjQrPcUomfdQvdbmwHviDzwwulT+eCTFbYTb8qDMuFE43pHnA0boa27PmW\ncrpv/3l5IfkmVCF2uDlugr0PjYkdlSHVEdIKzbF0Wy4Td5Ttje+h8esB24e25eOU\nTErmLjMMX5ZaNnpRJaZU7r4b8ta6+U+uTYLR+pECgYAR3W8fsfHt6LSh6ytSoQt4\nrG7ePFXdCU+jDjg+p4Ot/d2vFpQaPWAjFJRc/04H98mia/KnCscGuFImPiSuykf/\nct7BUfMAg5Y/XmCfAQY7+sMGYoKhz5H4hAYmHrppePYmcjHYdwh7LILaK2Qsagus\nP8wSZsc78lg6qr7aacqPTA==\n-----END PRIVATE KEY-----"
+        }
+      }
+    ],
+    "profileDetails": [
+      {
+        "uuid": "9dc6023a-2f66-41b3-b62a-2d1ad155ccba",
+        "profileFields": {
+          "EntityType": "Host and Vulnerability"
+        }
+      }
+    ]
+  },
+  "proxyConfig": {},
+  "additionalConfig": {}
+}
