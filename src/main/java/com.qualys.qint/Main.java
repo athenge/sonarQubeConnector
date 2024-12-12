@@ -32,7 +32,6 @@ import com.oracle.bmc.vulnerabilityscanning.responses.ListHostAgentScanResultsRe
 import com.oracle.bmc.vulnerabilityscanning.responses.ListHostScanTargetsResponse;
 import com.oracle.bmc.vulnerabilityscanning.responses.ListHostVulnerabilitiesResponse;
 import com.oracle.bmc.vulnerabilityscanning.responses.ListHostVulnerabilityImpactedHostsResponse;
-import com.qualys.qint.constants.Constants;
 import org.apache.commons.lang3.StringUtils;
 import org.json.JSONObject;
 
