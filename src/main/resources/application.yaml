@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: oci-connector
+    version: 1.0.0
+
+server:
+  servlet:
+    context-path: /oci-connector
