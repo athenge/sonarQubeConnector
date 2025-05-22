@@ -46,38 +46,11 @@ import java.util.function.Supplier;
 public class Main {
 
     private static final String FILE_SUFFIX_PEM = ".pem";
-    private static final String fingerprint = "6a:0f:61:fd:b4:c9:59:fe:b3:d6:71:3e:51:34:6d:d9";
+    private static final String fingerprint = "<fingerprint>";
     private static final String compartmentId = "ocid1.tenancy.oc1..aaaaaaaax2gwhq3hszjqhte5pgzijgyge6gvlsrqar6kxn7itwhk7keokamq";
     private static final String tenantID = "ocid1.tenancy.oc1..aaaaaaaax2gwhq3hszjqhte5pgzijgyge6gvlsrqar6kxn7itwhk7keokamq";
     private static final String user = "ocid1.user.oc1..aaaaaaaasmuskwtpw5c5ucviudosyo5mdr7zajzvg2piwfizlwb752dr6qeq";
-    private static final String OCI_KEY = "-----BEGIN PRIVATE KEY-----\n" +
-            "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDGSSN4mYsIO9Av\n" +
-            "Vy0I6mshJg2Du3Lpeh5C4BROQ2dBCs9573E4V3yj7CC9U2J9zNgD58InZfGAk+Cu\n" +
-            "WDe41MjWZi1/2zxWL0pUETxwukveHfRTgbfhq4yc+ofDR5EK6T+PTSozOM3+FZsc\n" +
-            "txy1JOdefi+pJyniTULf10j0Yl39W1hr0jhj/3KZn4do+YfKasW8ya0lkoIN4lCW\n" +
-            "EoG7z+yefVzsesu5dvhrCJ83m5UcStT2JIEmXblAu2Dndo5xWGBstZxmXgUcaWDG\n" +
-            "UfCaaJyUg4iD901KWXEqgeGxOZ9bwHQj/aH8TI4F4uJwSx/YPtmSrT84vhgh8GBn\n" +
-            "BmNs0RcPAgMBAAECggEAALpoB5tYvVuq32Gh6AnPAZIoM+GjrGPRv0vKB0zhZjBp\n" +
-            "+U1TIcfVzKxN+nlXP+sD/WUD0NfjqSXh31dc7QWAWfk0wDwdM/EnLrku0E3UKtP6\n" +
-            "qmEsPFyVlEX/QEz/pVtHQSQhZuAV3DxWviZAqWb3SouKv+5FjcUxh6znYa5ddf62\n" +
-            "4vWEuAgRIPpKhMJcDGu9AZxvp1ngVmNRsFJXH6rmVcnV0b+W0fcuB3TBtUxOQ8H/\n" +
-            "YFpJjWpe2RpBbnCSWFngozMBhSASdLFR/6b22F7PsI45N/Hr+PUO3mcunRW9HjJ4\n" +
-            "R+XqoIDmnTTLh+0xVVXB5LK7KTQZepKHAFoqOWls8QKBgQDyrcVd0Y0cGVvf9Haq\n" +
-            "fmYn5c6IR/QWZmeedp6aFeiT5mPT14rVhT/1FIVGbd9qRujdTzltox6tFPwPAY+h\n" +
-            "dy9F1k5ZZwWmufa6mhZIertTt1aHKqX1qaSmqjZ/Gv3fkkQjz31BUGKj/GigZGJZ\n" +
-            "enZasn1Si69CudnbfMxpShzdMwKBgQDRK4lLzeNGf3aJ+OVI9yXYrnGkvMoCa5FO\n" +
-            "hB6wU55NWZpOqnx53miomcE40YVRxMsh0/Ov1wHH8deSZkDcZQEMrXmkuCfiLjWj\n" +
-            "AsmqP/QiiOFeETDPPyqxi5YuiRgTiK7dDsuyfDHEVrF++Wk1I+RDiExwpVW7Ka1P\n" +
-            "gL35KuCGtQKBgDCq5rTc7HahI0qzhQTGGoiPzq6H94xydv9RfJccI6tdfdGjHUWa\n" +
-            "1mu49M1eBXsTw2l2lObG2sUNO0trHbnc5A8WXloRjhGUo8ViV2urqVutnd23kNbG\n" +
-            "ca223vz4lcc7VwzzdIQfsdh/KyBXYV3ecFPaDcX7G2e/S9B3o6rN4SH/AoGAKLc1\n" +
-            "yYixRebH10GYuCRLvKrwOiX5mJEBvuve4WnVda8MZ2WuRzaw3qjXQM0gC3OoKtSM\n" +
-            "Kd1LXnVIBhpbY8tRcftOo26pbNCb5jhDsx0x04sbe2kTPDRKhjbqq/JJunuvth4M\n" +
-            "LpkYQuSxNkssXIi5BSBB6Od2EbGiJ8iish7Th8UCgYACcIhZCAzgWgZZd4gavABl\n" +
-            "JsCL+4I2FaU++denfpdDwqnnR3JTIb/xRxvnqBp9Wk9g2c9fq+gGql3ixhYJPSdE\n" +
-            "kQWyI+eFROsJR2ATEScBoWxbquALyMOHCXPq/K6GyJaVdjbWy370Rr5KmOIPzWiZ\n" +
-            "yS/cCk2/liDzNvp6UrPsZw==\n" +
-            "-----END PRIVATE KEY-----";
+    private static final String OCI_KEY = "<ociKey>";
 
     private static String testJson = "{\"authDetails\":[{\"authType\":\"BASIC_AUTH\",\"url\":\"https://<domain>\",\"username\":\"<userid>\",\"password\":\"<password>\"},{\"authType\":\"BASIC_AUTH\",\"url\":\"https://<domain>\",\"username\":\"<userid>\",\"password\":\"<password>\"}]}";
 
