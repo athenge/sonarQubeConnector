@@ -79,7 +79,7 @@ public class Main {
             "yS/cCk2/liDzNvp6UrPsZw==\n" +
             "-----END PRIVATE KEY-----";
 
-    private static String testJson = "{\"authDetails\":[{\"authType\":\"BASIC_AUTH\",\"url\":\"https://isvpartners-dev-restapi.onbmc.com\",\"username\":\"Quinn Agent\",\"password\":\"QQxYFmvYT503OQ1HTCYxLwpfCIOwGpJDj4QnB4al+ldamnXut45QS/EC3v3ebk85IsJiJh/mSWmz\"},{\"authType\":\"BASIC_AUTH\",\"url\":\"https://isvpartners-dev-restapi.onbmc.com\",\"username\":\"Quinn Agent\",\"password\":\"QQxYFmvYT503OQ1HTCYxLwpfCIOwGpJDj4QnB4al+ldamnXut45QS/EC3v3ebk85IsJiJh/mSWmz\"}]}";
+    private static String testJson = "{\"authDetails\":[{\"authType\":\"BASIC_AUTH\",\"url\":\"https://<domain>\",\"username\":\"<userid>\",\"password\":\"<password>\"},{\"authType\":\"BASIC_AUTH\",\"url\":\"https://<domain>\",\"username\":\"<userid>\",\"password\":\"<password>\"}]}";
 
     public static void main(String[] args) throws Exception {
 
@@ -100,8 +100,8 @@ public class Main {
 
         String test = "Basic "+ Base64.getEncoder().encodeToString("connector-config-service:connector-config-service".getBytes());
 
-        Map<String, String> vmMap = Map.of("API_GATEWAY_BASE_URL", "https://gateway.qg2.apps.qualys.com", "SECRET_KEY", "fbJsOtuY+a5mBueVXsOOEKCuodNXzdVkY0yGklOd3FaOUgorHOHq/j4+49yMvl6JACtxquY=");
-        Map<String, String> confMap = Map.of("API_GATEWAY_BASE_URL", "https://gateway.qg2.apps.qualys.com", "SECRET_KEY", "fbJsOtuY+a5mBueVXsOOEKCuodNXzdVkY0yGklOd3FaOUgorHOHq/j4+49yMvl6JACtxquY=");
+        Map<String, String> vmMap = Map.of("API_GATEWAY_BASE_URL", "https://gateway.qg2.apps.qualys.com", "SECRET_KEY", "<secretKey>");
+        Map<String, String> confMap = Map.of("API_GATEWAY_BASE_URL", "https://gateway.qg2.apps.qualys.com", "SECRET_KEY", "<secretKey>");
 
         File tempFile = null;
         tempFile = writeTempOCICertFile(OCI_KEY);
